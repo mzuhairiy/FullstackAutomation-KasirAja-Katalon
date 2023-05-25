@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btn kategori</name>
+   <tag></tag>
+   <elementGuidId>bddfa115-a67f-4cf2-8f1f-9a216205ec1e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>a:nth-of-type(5) > div.css-ewi1jp > div.css-1xhj18k > div.css-1mqa38q</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@href='/categories']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>f7ee430e-3db9-47d5-8349-5e310a4309ff</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>css-1mqa38q</value>
+      <webElementGuid>58e64a85-8742-426e-b162-cd1e690e5c7a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>kategori</value>
+      <webElementGuid>f1bab859-57c3-42e5-9482-6fbb60127e3e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[1]/div[@class=&quot;css-k008qs&quot;]/div[@class=&quot;css-tnxwfz&quot;]/div[@class=&quot;chakra-stack css-owjkmg&quot;]/a[5]/div[@class=&quot;css-ewi1jp&quot;]/div[@class=&quot;css-1xhj18k&quot;]/div[@class=&quot;css-1mqa38q&quot;]</value>
+      <webElementGuid>c12d15d6-ea51-44ad-a6dc-32ed391173e1</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div/div/a[5]/div/div/div</value>
+      <webElementGuid>6bfa41b6-9a97-49e2-a4a6-bc9e0c192c04</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='pembelian'])[1]/following::div[3]</value>
+      <webElementGuid>7fe92f37-9ae0-4f21-82dc-d26294ae731f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='penjualan'])[1]/following::div[6]</value>
+      <webElementGuid>48e9c760-726c-4613-af83-9da6dc42aff1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='produk'])[1]/preceding::div[1]</value>
+      <webElementGuid>7ee423b4-6a7e-4b5e-9f55-cdc69f60d095</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='pengguna'])[1]/preceding::div[4]</value>
+      <webElementGuid>646bc0dc-edf2-4aa1-9e82-a6c4b06b1a75</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='kategori']/parent::*</value>
+      <webElementGuid>67535078-4133-46fd-a06a-3abf87d74406</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a[5]/div/div/div</value>
+      <webElementGuid>57d7564e-ec39-4cf7-ba0d-6c16cd038756</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'kategori' or . = 'kategori')]</value>
+      <webElementGuid>f14313eb-72ab-4beb-bdf4-c4bc12e6572a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>td_Electro</name>
+   <tag></tag>
+   <elementGuidId>dc601fe9-6837-4488-8f34-ab9cb5744232</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//td[(text() = 'Electro')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>td</value>
+      <webElementGuid>9869ebfa-29f4-4306-9ac9-ddfafc94614f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>gridcell</value>
+      <webElementGuid>2403266d-2b35-423c-8a46-7c9867e5b8a8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>css-u3dlpe</value>
+      <webElementGuid>214cfa11-2b3c-4f88-aa2d-a98e5b9cb5f4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Technology</value>
+      <webElementGuid>a1f88a40-e6c8-4e33-845a-f5993a1180c3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;chakra-modal--body-51&quot;)/table[@class=&quot;chakra-table css-fqy1u9&quot;]/tbody[@class=&quot;css-0&quot;]/tr[@class=&quot;css-13n66qk&quot;]/td[@class=&quot;css-u3dlpe&quot;]</value>
+      <webElementGuid>fb282c33-10d9-4db7-9d66-89095d89a8be</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='chakra-modal--body-51']/table/tbody/tr[2]/td</value>
+      <webElementGuid>c3d4b1d0-ca21-40f6-b946-9426035a08b1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Technology'])[1]/following::td[1]</value>
+      <webElementGuid>e0cae709-3df6-4c54-bd38-9c9643fe629f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='nama'])[2]/following::td[2]</value>
+      <webElementGuid>b73a8930-925c-4129-b1f3-ef707329ad9a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Dolor omnis facere s'])[1]/preceding::td[1]</value>
+      <webElementGuid>502d4a02-1771-4b62-9f40-f9e6bd81fa06</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Dicta elit omnis es'])[1]/preceding::td[2]</value>
+      <webElementGuid>abe84763-5e7e-4499-ae90-3f9a6e8a10bb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[2]/td</value>
+      <webElementGuid>e2d1dc2d-460a-4923-bc29-775a28bfd34e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//td[(text() = 'Technology' or . = 'Technology')]</value>
+      <webElementGuid>0a03723a-b0fb-4d9b-af57-23e6b18ff08f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
