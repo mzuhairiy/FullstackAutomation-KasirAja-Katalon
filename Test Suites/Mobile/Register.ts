@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>Add a New Product</name>
+   <name>Register</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,26 +10,26 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
-   <testSuiteGuid>7dbaf29c-08c4-4aee-bb93-89fd55345ba4</testSuiteGuid>
+   <testSuiteGuid>e240c8c6-d7b0-4927-935d-537cb8825382</testSuiteGuid>
    <testCaseLink>
-      <guid>d9f47711-9721-4287-920a-f9b2143248f2</guid>
+      <guid>20ec6c8a-f486-43c8-a324-34cdd2d6cfd1</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/General/Web/Open Browser</testCaseId>
+      <testCaseId>Test Cases/General/Mobile/Open App</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>22422fb0-41a5-442d-8368-73a588241e54</guid>
+      <guid>4e3fd9c8-7e98-428d-9db9-cbcc5e32a5d6</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Web-Testcase/Products/Add a New Product</testCaseId>
+      <testCaseId>Test Cases/Mobile-Testcase/Register/Successfully Register</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>9f168772-b53d-41d7-89bd-be5524ed0b68</guid>
+      <guid>ea06bd0d-5827-4512-b5a9-a6a55aea9029</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/General/Web/Close Browser</testCaseId>
+      <testCaseId>Test Cases/General/Mobile/Close App</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
