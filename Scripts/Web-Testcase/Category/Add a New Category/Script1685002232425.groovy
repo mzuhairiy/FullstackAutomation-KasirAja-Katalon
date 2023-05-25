@@ -19,17 +19,17 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Web-Testcase/Login/Login-Positive'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Web Object/Category/btn kategori'))
+WebUI.click(findTestObject('Web Objects/Category/btn kategori'))
 
-WebUI.verifyElementPresent(findTestObject('Web Object/Category/div_dashboard   kategori'), 0)
+WebUI.verifyElementPresent(findTestObject('Web Objects/Category/div_dashboard   kategori'), 0)
 
-WebUI.click(findTestObject('Web Object/Category/btn tambah'))
+WebUI.click(findTestObject('Web Objects/Category/btn tambah'))
 
-WebUI.setText(findTestObject('Web Object/Category/input_nama_kategori'), 'Technology')
+WebUI.setText(findTestObject('Web Objects/Category/input_nama_kategori'), 'Technology')
 
-WebUI.setText(findTestObject('Web Object/Category/input_deskripsi_kategori'), 'Kategori Teknologi')
+WebUI.setText(findTestObject('Web Objects/Category/input_deskripsi_kategori'), 'Kategori Teknologi')
 
-WebUI.click(findTestObject('Web Object/Category/button_simpan'))
+WebUI.click(findTestObject('Web Objects/Category/button_simpan'))
 
-WebUI.verifyElementPresent(findTestObject('Web Object/Category/popup_success'), 0)
+WebUI.verifyElementPresent(findTestObject('Web Objects/Category/popup_success'), 0)
 

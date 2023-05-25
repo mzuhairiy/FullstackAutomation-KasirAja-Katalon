@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-response = WS.sendRequest(findTestObject('API Object/Category/Add Category'))
+response = WS.sendRequest(findTestObject('API Objects/Category/Add Category'))
 
 WS.verifyResponseStatusCode(response, 201)
 

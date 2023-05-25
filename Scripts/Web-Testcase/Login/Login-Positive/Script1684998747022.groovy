@@ -18,11 +18,11 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 //WebUI.navigateToUrl('https://kasirdemo.belajarqa.com/')
-WebUI.setText(findTestObject('Web Object/Login/input_email_email'), 'zuzu@zu.com')
+WebUI.setText(findTestObject('Web Objects/Login/input_email_email'), 'zuzu@zu.com')
 
-WebUI.setText(findTestObject('Web Object/Login/input_password_password'), 'zuzu123')
+WebUI.setText(findTestObject('Web Objects/Login/input_password_password'), 'zuzu123')
 
-WebUI.click(findTestObject('Web Object/Login/button_login'))
+WebUI.click(findTestObject('Web Objects/Login/button_login'))
 
-WebUI.verifyElementPresent(findTestObject('Web Object/Login/h3_kasirAja'), 0)
+WebUI.verifyElementPresent(findTestObject('Web Objects/Login/h3_kasirAja'), 0)
 

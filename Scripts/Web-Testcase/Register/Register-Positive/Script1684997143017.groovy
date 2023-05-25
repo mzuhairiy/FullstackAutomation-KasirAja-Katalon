@@ -19,15 +19,15 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.navigateToUrl('https://kasirdemo.belajarqa.com/')
 
-WebUI.click(findTestObject('Web Object/Register/a_ingin mencoba, daftar'))
+WebUI.click(findTestObject('Web Objects/Register/a_ingin mencoba, daftar'))
 
-WebUI.setText(findTestObject('Web Object/Register/input_nama toko_name'), 'zushop2')
+WebUI.setText(findTestObject('Web Objects/Register/input_nama toko_name'), 'zushop2')
 
-WebUI.setText(findTestObject('Web Object/Register/input_email_email'), 'zuzu2@zu.com')
+WebUI.setText(findTestObject('Web Objects/Register/input_email_email'), 'zuzu2@zu.com')
 
-WebUI.setText(findTestObject('Web Object/Register/input_password_password'), 'zuzu123')
+WebUI.setText(findTestObject('Web Objects/Register/input_password_password'), 'zuzu123')
 
-WebUI.click(findTestObject('Web Object/Register/button_daftar'))
+WebUI.click(findTestObject('Web Objects/Register/button_daftar'))
 
-WebUI.verifyElementPresent(findTestObject('Web Object/Register/popup_success'), 0)
+WebUI.verifyElementPresent(findTestObject('Web Objects/Register/popup_success'), 0)
 

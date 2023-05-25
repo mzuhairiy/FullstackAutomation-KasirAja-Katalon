@@ -19,11 +19,11 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.navigateToUrl('https://kasirdemo.belajarqa.com/')
 
-WebUI.setText(findTestObject('Web Object/Login/input_email_email'), 'zuwen@zu.com')
+WebUI.setText(findTestObject('Web Objects/Login/input_email_email'), 'zuwen@zu.com')
 
-WebUI.setText(findTestObject('Web Object/Login/input_password_password'), 'wewen123')
+WebUI.setText(findTestObject('Web Objects/Login/input_password_password'), 'wewen123')
 
-WebUI.click(findTestObject('Web Object/Login/button_login'))
+WebUI.click(findTestObject('Web Objects/Login/button_login'))
 
-WebUI.verifyElementPresent(findTestObject('Web Object/Login/popup_failed'), 0)
+WebUI.verifyElementPresent(findTestObject('Web Objects/Login/popup_failed'), 0)
 

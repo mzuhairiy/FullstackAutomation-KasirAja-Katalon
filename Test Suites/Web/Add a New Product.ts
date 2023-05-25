@@ -15,7 +15,7 @@
       <guid>d9f47711-9721-4287-920a-f9b2143248f2</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Web-Testcase/General/Open Browser</testCaseId>
+      <testCaseId>Test Cases/General/Open Browser</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
@@ -29,7 +29,7 @@
       <guid>9f168772-b53d-41d7-89bd-be5524ed0b68</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Web-Testcase/General/Close Browser</testCaseId>
+      <testCaseId>Test Cases/General/Close Browser</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

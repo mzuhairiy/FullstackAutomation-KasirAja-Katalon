@@ -21,7 +21,7 @@ import groovy.json.JsonSlurper as JsonSlurper
 
 def jsonSlurper = new JsonSlurper()
 
-response = WS.sendRequest(findTestObject('API Object/Auth/Login'))
+response = WS.sendRequest(findTestObject('API Objects/Auth/Login'))
 
 def jsonResponse = jsonSlurper.parseText(response.getResponseBodyContent())
 

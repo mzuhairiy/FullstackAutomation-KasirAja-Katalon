@@ -31,7 +31,7 @@ import org.openqa.selenium.Keys as Keys
 //
 //System.out.println(GlobalVariable.password)
 
-response = WS.sendRequest(findTestObject('API Object/Auth/Registration'))
+response = WS.sendRequest(findTestObject('API Objects/Auth/Registration'))
 
 WS.verifyResponseStatusCode(response, 201)
 

@@ -19,24 +19,25 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Web-Testcase/Login/Login-Positive'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Web Object/Products/btn produk'))
+WebUI.click(findTestObject('Web Objects/Products/btn produk'))
 
-WebUI.click(findTestObject('Web Object/Products/a_tambah'))
+WebUI.click(findTestObject('Web Objects/Products/a_tambah'))
 
-WebUI.setText(findTestObject('Web Object/Products/input_nama_nama'), 'Laptop')
+WebUI.setText(findTestObject('Web Objects/Products/input_nama_nama'), 'Laptop')
 
-WebUI.setText(findTestObject('Web Object/Products/input_deskripsi_deskripsi'), 'Lenovo B123')
+WebUI.setText(findTestObject('Web Objects/Products/input_deskripsi_deskripsi'), 'Lenovo B123')
 
-WebUI.setText(findTestObject('Web Object/Products/input_harga beli_harga beli'), '550000')
+WebUI.setText(findTestObject('Web Objects/Products/input_harga beli_harga beli'), '550000')
 
-WebUI.setText(findTestObject('Web Object/Products/input_harga jual_harga jual'), '6000000')
+WebUI.setText(findTestObject('Web Objects/Products/input_harga jual_harga jual'), '6000000')
 
-WebUI.setText(findTestObject('Web Object/Products/input_stok_stok'), '10')
+WebUI.setText(findTestObject('Web Objects/Products/input_stok_stok'), '10')
 
-WebUI.click(findTestObject('Web Object/Products/input_kategori_kategori'))
+WebUI.click(findTestObject('Web Objects/Products/input_kategori_kategori'))
 
-WebUI.click(findTestObject('Web Object/Products/td_Electro'))
+WebUI.click(findTestObject('Web Objects/Products/td_Electro'))
 
-WebUI.click(findTestObject('Web Object/Products/button_simpan'))
+WebUI.click(findTestObject('Web Objects/Products/button_simpan'))
 
-WebUI.click(findTestObject('Web Object/Products/div_success'))
+WebUI.click(findTestObject('Web Objects/Products/div_success'))
+
