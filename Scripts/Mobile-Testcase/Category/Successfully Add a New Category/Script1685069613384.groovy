@@ -17,3 +17,15 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+Mobile.delay(7, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.tapAndHold(findTestObject('Mobile Objects/Category/android.widget.Button - Burger'), 0, 0)
+
+Mobile.tap(findTestObject('Mobile Objects/Category/android.widget.TextView - kategori'), 0)
+
+Mobile.tap(findTestObject('Mobile Objects/Category/android.widget.TextView - baru'), 0)
+
+Mobile.setText(findTestObject('Mobile Objects/Category/android.widget.EditText - nama'), 'Bansos', 0)
+
+Mobile.tap(findTestObject('Mobile Objects/Category/android.widget.TextView - Simpan'), 0)
+

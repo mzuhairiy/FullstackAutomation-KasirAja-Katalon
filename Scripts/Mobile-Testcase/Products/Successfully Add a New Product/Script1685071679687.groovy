@@ -17,13 +17,31 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.verifyElementVisible(findTestObject('Mobile Objects/Login/android.widget.TextView - Selamat Datang Masuk'), 0)
+WebUI.delay(7)
 
-Mobile.setText(findTestObject('Mobile Objects/Login/android.widget.EditText - Email'), 'zuzu@zu.com', 0)
+Mobile.tapAndHold(findTestObject('Mobile Objects/Products/android.widget.Button - Burger'), 0, 0)
 
-Mobile.setText(findTestObject('Mobile Objects/Login/android.widget.EditText - Password'), 'zuzu123', 0)
+Mobile.tap(findTestObject('Mobile Objects/Products/android.widget.TextView - produk'), 0)
 
-Mobile.tap(findTestObject('Mobile Objects/Login/android.widget.Button - LoginBtn'), 0)
+Mobile.tap(findTestObject('Mobile Objects/Products/android.widget.Button - baru'), 0)
 
-Mobile.verifyElementVisible(findTestObject('Mobile Objects/Login/android.widget.TextView - kasirAja'), 0)
+Mobile.setText(findTestObject('Mobile Objects/Products/android.widget.EditText - nama'), 'Laptop', 0)
+
+Mobile.setText(findTestObject('Mobile Objects/Products/android.widget.EditText - Deskripsi'), 'Deskripsi', 0)
+
+Mobile.setText(findTestObject('Mobile Objects/Products/android.widget.EditText - hargaBeli'), '1500', 0)
+
+Mobile.setText(findTestObject('Mobile Objects/Products/android.widget.EditText - hargaJual'), '2000', 0)
+
+Mobile.setText(findTestObject('Mobile Objects/Products/android.widget.EditText - stok'), '10', 0)
+
+Mobile.delay(2, FailureHandling.STOP_ON_FAILURE)
+
+CustomKeywords.'helper.Swipe.swipeVerticalDown'()
+
+Mobile.tap(findTestObject('Mobile Objects/Products/android.widget.EditText - Kategori'), 0, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.tap(findTestObject('Mobile Objects/Products/android.widget.TextView - Technology'), 0)
+
+Mobile.tap(findTestObject('Mobile Objects/Products/android.widget.Button - Simpan'), 0)
 
